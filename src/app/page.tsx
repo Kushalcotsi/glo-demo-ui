@@ -34,10 +34,10 @@ export default function LoginPage() {
           </div>
 
           <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight max-w-xl drop-shadow-lg">
-            Intelligent workspace configuration.
+            AI-Powered Deal Configuration.
           </h1>
           <p className="mt-6 text-lg lg:text-xl text-slate-200 max-w-lg leading-relaxed drop-shadow-md">
-            Configure, visualize, and deploy modular environments with AI-driven site intelligence and real-time layout validation.
+            Accelerate your sales pipeline. Instantly generate accurate quotes and intelligent unit recommendations directly from your active CRM opportunities.
           </p>
         </div>
       </div>
