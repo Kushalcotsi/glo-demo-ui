@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "GLO Workspace",
+  title: "Quotes AI Prediction ",
   description: "Intelligent enterprise workspace planning.",
 };
 

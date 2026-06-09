@@ -7,6 +7,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { ArrowRight, Building2, User, Lock, Command } from 'lucide-react';
 import { WillScotLogo } from '@/components/ui/WillScotLogo';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function LoginPage() {
   return (
@@ -14,10 +15,12 @@ export default function LoginPage() {
       
       {/* Full Page Background Image */}
       <div className="absolute inset-0 z-0 bg-slate-50 flex items-center justify-center overflow-hidden">
-        <img 
-          className="object-cover w-full h-full opacity-90 object-left origin-left scale-125" 
+        <Image 
           src="https://wsmm.bynder.com/transform/94514224-0755-4115-9af2-46b1f5dcbdd9/storage-nav" 
           alt="Conteneurs standards" 
+          fill
+          priority
+          className="object-cover opacity-90 object-left origin-left scale-125" 
         />
         {/* Gradient Overlay to ensure text and card are readable */}
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/60 via-slate-900/20 to-transparent" />
