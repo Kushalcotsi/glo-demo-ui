@@ -35,6 +35,10 @@ interface AppState {
   setIsAnalyzing: (status: boolean) => void;
   analysisComplete: boolean;
   setAnalysisComplete: (status: boolean) => void;
+
+  // Selection
+  selectedRecommendation: any;
+  setSelectedRecommendation: (rec: any) => void;
 }
 
 export const useAppStore = create<AppState>((set) => ({
@@ -73,4 +77,7 @@ export const useAppStore = create<AppState>((set) => ({
   setIsAnalyzing: (status) => set({ isAnalyzing: status }),
   analysisComplete: false,
   setAnalysisComplete: (status) => set({ analysisComplete: status }),
+
+  selectedRecommendation: null,
+  setSelectedRecommendation: (rec) => set({ selectedRecommendation: rec }),
 }));
